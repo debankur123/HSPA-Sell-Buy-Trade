@@ -1,0 +1,44 @@
+[
+  {
+    "Id" : 1,
+    "Name" : "Spandan House",
+    "Type" : "House",
+    "Price" : 22000
+  },
+  {
+    "Id": 2,
+    "Name" : "Acoustic Villa",
+    "Type" : "House",
+    "Price" : 72000
+  },
+  {
+    "Id" : 3,
+    "Name" : "Sea Front Cottage",
+    "Type" : "House",
+    "Price" : 45000
+  },
+  {
+    "Id" : 4,
+    "Name" : "West Inn",
+    "Type" : "Hotel",
+    "Price" : 56000
+  },
+  {
+    "Id" : 5,
+    "Name" : "Banerjee Villa",
+    "Type" : "House",
+    "Price" : 76000
+  },
+  {
+    "Id" : 6,
+    "Name" : "Anandalok",
+    "Type" : "House",
+    "Price" : 41000
+  },
+  {
+    "Id" : 7,
+    "Name" : "Basgriho",
+    "Type" : "House",
+    "Price" : 18000
+  }
+]
