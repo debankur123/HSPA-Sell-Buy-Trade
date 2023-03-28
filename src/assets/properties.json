@@ -1,44 +1,56 @@
 [
   {
     "Id" : 1,
+    "SellRent" : 1,
     "Name" : "Spandan House",
     "Type" : "House",
-    "Price" : 22000
+    "Price" : 22000,
+    "Image" : "prop-2"
   },
   {
     "Id": 2,
+    "SellRent" : 1,
     "Name" : "Acoustic Villa",
     "Type" : "House",
-    "Price" : 72000
+    "Price" : 72000,
+    "Image" : "prop-3"
   },
   {
     "Id" : 3,
+    "SellRent" : 2,
     "Name" : "Sea Front Cottage",
     "Type" : "House",
     "Price" : 45000
   },
   {
     "Id" : 4,
+    "SellRent" : 2,
     "Name" : "West Inn",
     "Type" : "Hotel",
-    "Price" : 56000
+    "Price" : 56000,
+    "Image" : "prop-4"
   },
   {
     "Id" : 5,
+    "SellRent" : 1,
     "Name" : "Banerjee Villa",
     "Type" : "House",
-    "Price" : 76000
+    "Price" : 76000,
+    "Image" : "prop-5"
   },
   {
     "Id" : 6,
+    "SellRent" : 2,
     "Name" : "Anandalok",
     "Type" : "House",
     "Price" : 41000
   },
   {
     "Id" : 7,
+    "SellRent" : 1,
     "Name" : "Basgriho",
     "Type" : "House",
-    "Price" : 18000
+    "Price" : 18000,
+    "Image" : "prop-6"
   }
 ]

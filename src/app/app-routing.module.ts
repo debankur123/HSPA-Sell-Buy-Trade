@@ -9,6 +9,8 @@ const routes: Routes = [
   {path: 'add-property' , component:AddPropertyComponent},
   {path: '' , component:PropertyListComponent},
   {path: 'property-details/:id' , component:PropertyDetailsComponent},
+  {path: '**' , component:PropertyListComponent},
+
 ];
 
 @NgModule({
