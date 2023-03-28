@@ -7,6 +7,10 @@ import { PropertyCardComponent } from './property/property-card/property-card.co
 import { PropertyListComponent } from './property/property-list/property-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HousingService } from './services/housing.service';
+import { AddPropertyComponent } from './property/add-property/add-property.component';
+import { RouterModule,Routes } from '@angular/router';
+import { PropertyDetailsComponent } from './property/property-details/property-details.component';
+
 
 
 @NgModule({
@@ -14,12 +18,15 @@ import { HousingService } from './services/housing.service';
     AppComponent,
     PropertyCardComponent,
     PropertyListComponent,
-    NavBarComponent
+    NavBarComponent,
+    AddPropertyComponent,
+    PropertyDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    //RouterModule.forRoot(appRoutes)
   ],
   providers: [
     HousingService
