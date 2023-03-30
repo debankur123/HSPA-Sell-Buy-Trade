@@ -16,12 +16,14 @@ export class PropertyListComponent implements OnInit {
   constructor(private route : ActivatedRoute, private housingService : HousingService) { }
 
   ngOnInit() : void {
-
-    this.housingService.getAllProperties().subscribe(
+    if(this.route.snapshot.url.toString()){
+      this.SellRent = 2; // means we are on rent property URL or else we are in base URL.
+    }
+    this.housingService.getAllProperties(this.SellRent).subscribe(
       data => {
         this.properties = data;
         console.log(data);
-        console.log(this.route.snapshot.url.toString());
+        
       }, error =>{
         console.log('http error');
         console.log(error);

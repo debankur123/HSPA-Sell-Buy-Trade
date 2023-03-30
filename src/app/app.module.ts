@@ -10,6 +10,9 @@ import { HousingService } from './services/housing.service';
 import { AddPropertyComponent } from './property/add-property/add-property.component';
 import { RouterModule,Routes } from '@angular/router';
 import { PropertyDetailsComponent } from './property/property-details/property-details.component';
+import { FormsModule } from '@angular/forms';
+import { UserLoginComponent } from './user/user-login/user-login.component';
+import { UserRegisterComponent } from './user/user-register/user-register.component';
 
 
 
@@ -20,12 +23,15 @@ import { PropertyDetailsComponent } from './property/property-details/property-d
     PropertyListComponent,
     NavBarComponent,
     AddPropertyComponent,
-    PropertyDetailsComponent
+    PropertyDetailsComponent,
+    UserLoginComponent,
+    UserRegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
     //RouterModule.forRoot(appRoutes)
   ],
   providers: [
